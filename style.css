@@ -1,0 +1,123 @@
+:root {
+  --color1: #05b1b1;
+  --color2: #52339a;
+}
+
+header,
+footer,
+section {
+  padding: 100px 0px;
+}
+
+header {
+  padding: 200px 0px;
+}
+
+header,
+footer {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, var(--color1) 0%, var(--color2) 100%);
+}
+
+.wb_play {
+  background-color: var(--color1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 30px auto;
+  transition: all 0.2s ease;
+}
+
+.wb_play:hover {
+  background-color: var(--color2);
+}
+
+.wb_triangle {
+  margin-right: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-wb {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--bs-white);
+  background-color: var(--color2);
+}
+
+.btn-wb:hover {
+  color: var(--bs-white);
+  background-color: var(--color1);
+}
+
+.wb_line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color1);
+  margin: 10px auto 50px;
+}
+
+.windows-section {
+  background-color: #eee;
+}
+
+.wb_circle {
+  border: solid 3px var(--color2);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+
+.wb_icon {
+  color: var(--color2);
+}
+
+.wb_about-line {
+  width: 50%;
+  height: 3px;
+  background-color: black;
+  margin: auto;
+}
+
+.wb_wrapper {
+  border: 3px solid var(--color1);
+  padding: 40px 0;
+  margin: 20px 40px;
+}
+
+.color1 {
+  color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+}
+
+.bg1 {
+  background-color: var(--color1);
+}
+
+.bg2 {
+  background-color: var(--color2);
+}
+
+.wb_accordion {
+  background-color: #eee;
+}
+
+.wb_payment {
+  background-color: #eee;
+}
